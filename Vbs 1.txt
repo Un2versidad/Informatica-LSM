@@ -1,0 +1,63 @@
+'No pude ponerlo en la extensión .vbs debido a que el teams ponía que era insegurada y no me permitío subir el archivo'
+
+'Triangulo'
+MsgBox("Triangulo")
+lado1 = 0
+lado2 = 0
+lado3 = 0
+base = 0
+altu = 0
+peri = 0
+area = 0
+
+lado1=inputbox("Distancia 1")
+lado2=inputbox("Distancia 2")
+lado3=inputbox("Distancia 3")
+base=inputbox("Distancia de la base")
+altu=inputbox("Distancia de la altura")
+area= (altu*base)/2
+peri = (0+lado1+lado2+lado3)
+MsgBox("El perímetro es: "&peri)
+MsgBox("El área es de: "&area)
+
+'Paralelogramo'
+MsgBox("Paralelogramo")
+lado1=0
+lado2=0
+altu=0
+peri=0
+area=0
+base=0
+lado1=inputbox("Distancia corta :")
+lado2=inputbox("Distancia larga :")
+base=inputbox("Distancia de la base :")
+altu=inputbox("Distancia de la altura :")
+peri= 2*(0+lado1+lado2)
+area= altu*base
+MsgBox("El perímetro es: "&peri)
+MsgBox("El área es de: "&area)
+
+'Cuadrado'
+MsgBox("Cuadrado")
+lado=0
+peri=0
+area=0
+lado=inputbox("Longitud del lado :")
+peri= 0+4+lado
+area= lado*lado
+MsgBox("El perímetro es: "&peri)
+MsgBox("El área es de: "&area)
+
+'Rectangulo'
+MsgBox("Rectangulo")
+lado1 = 0
+lado2 = 0
+peri = 0
+area = 0
+
+lado1=inputbox("Lado 1 :")
+lado2=inputbox("Lado 2 :")
+peri= 2*(0+lado1+lado2)
+area= lado1*lado2
+MsgBox("El perímetro es: "&peri)
+MsgBox("El área es de: "&area)
